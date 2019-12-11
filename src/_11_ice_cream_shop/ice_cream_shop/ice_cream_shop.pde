@@ -1,5 +1,10 @@
 void setup(){
      size(500,500);
+     makeIceCreamCone();
+     addScoop("Vanilla");
+     addSprinkle(SCOOPSIZE);
+     fill(#FF0000);
+     ellipse(255,200,30,30);
      //call the makeIceCreamCone() method below to make an ice cream cone
 
      //use the addScoop method below to add as many scoops of ice cream as you want

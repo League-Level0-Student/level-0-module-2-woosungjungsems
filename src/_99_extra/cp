@@ -1,0 +1,26 @@
+1) int ran = new Random.nextInt(999);
+   System.out.print(ran);
+   int ran2 = new Random.nextInt(899);
+   System.out.print(ran2);
+   System.out.print(ran + ran2);
+   System.out.print(ran - ran2);
+   
+2) String flour = JOptionPane.showInputDialog("How many cups of flour do you have?");
+   int cup = Integer.parseInt(flour);
+   if(cup < 2){
+   		JOptionPane.showMessageDialog(null, "You need more flour!");
+   }
+   String cookies = JOptionPane.showInputDialog("How many are you going to bake?");
+   int amount = Integer.parseInt(cookies);
+   if(amount > 30){
+   		JOptionPane.showMessageDialog(null, "You need to bake two batches of cookies!");
+   }
+   String batches = JOptionPane.showInputDialog("How many batches did you bake?");
+   int friends = Integer.parseInt(batches);
+   if(friends > 2){
+   		JOptionPane.showMessageDialog(null, "You are lucky to have that much friends!");
+   }
+   
+3) printMessage();
+   setName("Daniel");
+   getNumber();
